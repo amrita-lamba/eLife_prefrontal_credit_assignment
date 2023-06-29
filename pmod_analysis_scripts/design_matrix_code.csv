@@ -1,0 +1,11 @@
+conName,set_number ,characteristic ,TG_decision,TG_missed_decision,TG_feedback,TG_delta,TG_missed_feedback,SM_decision,SM_missed_decision,SM_feedback,SM_delta,SM_missed_feedback
+Bcon_FF_TG_feedback,1,feedback_only,0,0,1,0,0,0,0,0,0,0
+Bcon_FF_SM_feedback,1,feedback_only,0,0,0,0,0,0,0,1,0,0
+Bcon_FF_TG_delta,1,feedback_only,0,0,0,1,0,0,0,0,0,0
+Bcon_FF_SM_delta,1,feedback_only,0,0,0,0,0,0,0,0,1,0
+Bcon_FF_TG_feedback _>_SM_feedback,1,feedback_only,0,0,1,0,0,0,0,-1,0,0
+Bcon_FF_SM_feedback_>_TG_feedback,1,feedback_only,0,0,-1,0,0,0,0,1,0,0
+Bcon_FF_TG_delta_>_SM_delta,1,feedback_only,0,0,0,1,0,0,0,0,-1,0
+Bcon_FF_SM_delta_>_TG_delta,1,feedback_only,0,0,0,-1,0,0,0,0,1,0
+Bcon_FF_combined_TGSM,1,feedback_only,0,0,1,0,0,0,0,1,0,0
+Bcon_FF_delta_TGSM,1,feedback_only,0,0,0,1,0,0,0,0,1,0

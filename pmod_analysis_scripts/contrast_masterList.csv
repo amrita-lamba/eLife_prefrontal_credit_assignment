@@ -1,0 +1,11 @@
+conNumber ,conName,type,set_number ,characteristic 
+1,Bcon_FF_TG_feedback,basic,1,reward_only
+2,Bcon_FF_SM_feedback,basic,1,reward_only
+3,Bcon_FF_TG_delta,basic,1,reward_only
+4,Bcon_FF_SM_delta,basic,1,reward_only
+5,Bcon_FF_TG_feedback _>_SM_feedback,basic,1,reward_only
+6,Bcon_FF_SM_feedback_>_TG_feedback,basic,1,reward_only
+7,Bcon_FF_TG_delta_>_SM_delta,basic,1,reward_only
+8,Bcon_FF_SM_delta_>_TG_delta,basic,1,reward_only
+9,Bcon_FF_combined_TGSM,basic,1,reward_only
+10,Bcon_FF_delta_TGSM,basic,1,reward_only
